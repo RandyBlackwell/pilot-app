@@ -1,0 +1,215 @@
+body {
+    text-align: center;
+    color: #D3AC2B;
+     background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364);
+    font-family: "Economica", sans-serif;
+    font-size: 18px;
+   }
+  
+  #title {
+    font-family: "Russo One", sans-serif;
+    font-weight: 200;
+  }
+  
+  #pilotapp-title {
+    font-size: 2rem;
+    margin: 0;
+   
+  }
+  
+  #description {
+    font-size: 1.5rem;
+  }
+  #survey-form {
+    background-color: rgba(119, 181, 223, 0.4);
+    color: #000;
+    width: 85%;
+    margin: 0 auto;
+    border: 3px solid #000;
+    border-radius: 15px;
+    padding: 0px 0px 15px 0px;
+  }
+  
+  .row {
+    display: block;
+    padding-top: 15px;
+  }
+  .label-name {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+  }
+  
+  .input-name {
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+  }
+  
+  .label-select {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+  }
+  
+  .select-input {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+  }
+  
+  .radio-label {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    vertical-align: top;
+  }
+  
+  .radio-input {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    
+  }
+  
+  .label-checkbox {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+    vertical-align: top;
+  }
+  
+  .input-checkbox {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+    }
+  
+  .label-resume {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+  }
+  
+  .input-resume {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+  }
+  
+  .label-cv {
+    display: inline-block;
+    width: 45%;
+    text-align: right;
+  }
+  
+  .input-cv {
+    display: inline-block;
+    width: 45%;
+    text-align: left;
+  }
+  
+  #submit {
+    padding: 5px;
+    border: 2px black solid;
+    border-radius: 7px;
+  }
+  
+  #submit:hover {
+    background-color: #000;
+    color: #FFF;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .input-comments {
+       padding: 0 10px;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 600px) {
+    
+    #description {
+      text-align: justify;
+    }
+    #survey-form {
+   
+      width: 95%;
+      border: 1px solid black;
+      padding: 5px;
+      text-align: left;
+    }
+    .label-name {
+      display: block;
+      text-align: left;
+    }
+    .input-name {
+      display: block;
+      text-align: left;
+    }
+    .label-select {
+      display: block;
+      text-align: left;
+    }
+    .input-select {
+      display: block;
+      text-align: left;
+    }
+    .radio-label {
+      display: block;
+      text-align: left;
+      padding: 0px 0px 5px 0px;
+      width: 90%;
+    }
+    .radio-input {
+      display: block;
+      text-align: left;
+      width: 90%;
+    }
+      .label-checkbox {
+      display: block;
+      text-align: left;
+      padding: 0px 0px 5px 0px;
+        width: 90%;
+    }
+      .input-checkbox {
+      display: block;
+      text-align: left;
+    }
+    .label-comments {
+      display: block;
+      text-align: left;
+      padding: 0px 0px 5px 0px;
+    }
+    .input-comments {
+      display: block;
+      text-align: left;
+      width: 65%;
+    }
+      .label-resume {
+      display: block;
+        text-align: left;
+        padding: 0px 0px 5px 0px;
+    }
+      .input-resume {
+      display: block;
+        text-align: left;
+        padding: 0px 0px 10px 0px;
+    }
+      .label-cv {
+      display: block;
+        text-align: left;
+        padding: 0px 0px 5px 0px;
+    }
+      .input-cv {
+      display: block;
+        text-align: left;
+    }
+     .submit {
+      display: block;
+       text-align: left;
+    }
+    textarea {
+      width: 90%;
+    }
+  }
